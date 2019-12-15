@@ -1,4 +1,5 @@
 export default {
+  clickbait: './assets/oatmilk2.png',
   id: 'AlternativeMilks',
   title: 'Alternative milks',
   date: '12/06/19',

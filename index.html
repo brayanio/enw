@@ -10,12 +10,14 @@
   </head>
   <body>
     <script src="https://minima.design/3/minima.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://vuejs.org/js/vue.js"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <script src="./app.js" type="module"></script>
     
-    <div id="app">
+    <div id="app" class="d-flex">
+      <sidebar></sidebar>
       <router-view></router-view>
+      <mobile></mobile>
     </div>
   </body>
 </html>

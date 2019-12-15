@@ -1,22 +1,28 @@
 import AlternativeMilks from './AlternativeMilks.js'
 
 export default {
+  clickbait: './assets/milk2.png',
   id: 'WhatsTheBestMilk',
   title: 'Whats the best milk?',
   date: '12/06/19',
   tags: ['health', 'milk', 'vegan'],
   html: `
-    <p class="jumbotron">
-      Despite normal propaganda, dairy products are not healthy choices for you vibrationally.
-    </p>
-    <hr>
-    <p>
-      In order for milk to be created, a cow must be pregnent. Due to milk's high demand to create products like ice cream, cheese, and specialty cofffes, the process is less than moral.
-    </p>
-    <hr>
-    <p>
-      Cows usually live in factory conditions without ever touching a pasture. Cows also must be pregnant to produce milk, so dairy companies will impregnate cows and seperate the child from the mother and take the mothers milk.
-    </p>
+    <div class="d-flex">
+      <img src="./assets/dairy.png" class="post-img-header">
+      <div>
+        <p class="jumbotron">
+          Despite normal propaganda, dairy products are not healthy choices for you vibrationally.
+        </p>
+        <hr>
+        <p>
+          A cow must be pregnent in order to produce milk. Due to milk's high demand to create products like ice cream, cheese, and specialty cofffes, the process is less than moral.
+        </p>
+        <hr>
+        <p>
+          Cows usually live in factory conditions without ever touching a pasture. Cows also must be pregnant to produce milk, so dairy companies will impregnate cows and seperate the child from the mother and take the mothers milk.
+        </p>
+      </div>
+    </div>
     <hr>
     <p>
       Each cow is bred to produce 7.5 gallons of milk per day. While the amount needed to feed her calf is only 1 gallon. After three years, the cows are too depressed to continue, and are then slaughtered for beef.
