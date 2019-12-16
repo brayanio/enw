@@ -74,7 +74,7 @@ template:`
             {{ tag }} <i class="material-icons gutter">add_circle</i>
           </tag>
         </p>
-        <div class="button-tray right">
+        <div class="button-tray right" v-if="selected.length > 0">
           <button type="button" @click="localdb.save.intentionSearch(false)">Close</button>
         </div>
       </form>
