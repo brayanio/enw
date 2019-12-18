@@ -1,5 +1,5 @@
 import localdb from './LocalDB.js'
-import posts from '../../posts/posts.js'
+import posts from './posts.js'
 
 let nav, 
   bookmarks = localdb.val.bookmarks,

@@ -1,24 +1,4 @@
-import posts from '../../posts/posts.js'
-import Post from '../Shared/Post.js'
-
-import localdb from '../Services/LocalDB.js'
-import nav from '../Services/NavObj.js'
-
 export default {
-components: {
-  'post': Post
-},
-data: function() {
-  return { posts, nav, localdb }
-},
-methods: {
-  clearLocalStorage: function(){
-    this.localdb.clearAll()
-  },
-  postLink: function(name) {
-    return `#/intention/${name}`
-  }
-},
 template:`
   <div class="d-col gradient-y page t-h9 y-scroll post_page">
     <section>

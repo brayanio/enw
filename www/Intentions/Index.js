@@ -1,7 +1,7 @@
-import postData from '../../posts/posts.js'
 import Post from '../Shared/Post.js'
 import Tag from '../Shared/Tag.js'
 
+import postData from '../Services/posts.js'
 import localdb from '../Services/LocalDB.js'
 
 export default {

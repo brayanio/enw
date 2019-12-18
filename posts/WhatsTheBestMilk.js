@@ -1,5 +1,4 @@
 import AlternativeMilks from './AlternativeMilks.js'
-import PList from './PostTemplates/PList.js'
 
 export default {
   clickbait: './assets/milk2.png',
@@ -8,7 +7,7 @@ export default {
   date: '12/06/19',
   tags: ['health', 'milk', 'vegan'],
   template: {
-    component: PList,
+    component: 'PList',
     props: {
       flag: './assets/dairy.png',
       p: [

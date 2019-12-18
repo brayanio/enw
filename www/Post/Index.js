@@ -1,4 +1,4 @@
-import posts from '../../posts/posts.js'
+import posts from '../Services/posts.js'
 
 export default {
 computed: {

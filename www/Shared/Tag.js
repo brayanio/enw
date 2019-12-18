@@ -1,4 +1,4 @@
-import tagData from '../../posts/tags.js'
+import tagData from '../Services/tags.js'
 
 export default {
 computed: {

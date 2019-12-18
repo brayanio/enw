@@ -89,6 +89,7 @@
   min-height: 80px;
   border-top-left-radius: var(--minima-radius);
   border-bottom-right-radius: var(--minima-radius);
+  background-color: var(--shadow);
 }
 
 .mobile{
@@ -171,6 +172,9 @@
   border-bottom: 2px solid var(--text);
   border-right: 2px solid var(--text);
   margin-right: 8px;
+  width: 302px;
+  height: 277px;
+  background-color: var(--shadow);
 }
 
 @media screen and (min-width: 1000px){

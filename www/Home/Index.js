@@ -1,6 +1,6 @@
-import posts from '../../posts/posts.js'
 import Post from '../Shared/Post.js'
 
+import posts from '../Services/posts.js'
 import localdb from '../Services/LocalDB.js'
 import nav from '../Services/NavObj.js'
 

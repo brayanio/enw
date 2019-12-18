@@ -18,7 +18,9 @@ props: ['p', 'flag'],
 template:`
   <div>
     <div class="d-flex" v-if="flag">
-      <img :src="flag" class="post-img-header">
+      <div>
+        <img :src="flag" class="post-img-header">
+      </div>
       <div>
         <div v-for="(post, i) of pFlagAr" :key="post.html">
           <hr v-if="i != 0">
