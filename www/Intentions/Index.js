@@ -15,7 +15,13 @@ computed: {
     for(let post in this.postData){
       ar = ar.concat(this.postData[post].tags)
     }
-    return [...new Set(ar)].filter(tag => tag.includes(this.search.toLowerCase()))
+    ar = [...new Set(ar)]
+    ar.sort((a, b) => {
+      if(a > b) return 1
+      if(a < b) return -1
+      return 0
+    })
+    return ar.filter(tag => tag.includes(this.search.toLowerCase()))
   },
   posts: function(){
     return Object.values(this.postData).filter(post => post.tags.find(t => this.selected.includes(t)))
@@ -55,7 +61,7 @@ methods: {
 template:`
   <div class="d-col gradient-i page t-h9 y-scroll">
     <section>
-      <div class=" space-between">
+      <div class="space-between">
         <strong class="flex">Intention Organizer</strong>
         <button class="w3" 
           v-if="!intentionSearch && selected.length > 0" 

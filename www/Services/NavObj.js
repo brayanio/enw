@@ -5,7 +5,8 @@ let nav,
   bookmarks = localdb.val.bookmarks,
   defaultNav = [
     { page: 'Home', href: '#/home' }, 
-    { page: 'Intention', href: '#/intention' }, 
+    { page: 'Intention', href: '#/intention' },
+    { page: 'Material', href: '#/material' }, 
     { page: 'About', href: '#/about' }
   ],
   defaultPages = defaultNav.map(e => e.page)

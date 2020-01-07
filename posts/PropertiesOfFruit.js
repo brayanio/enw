@@ -1,8 +1,9 @@
 export default {
-  clickbait: './assets/notfound.png',
+  clickbait: './assets/apple.png',
   id: 'PropertiesOfFruit',
   title: 'Properties of Fruit',
   date: '12/16/19',
+  author: 'Brayanbyrdsong@icloud.com',
   tags: ['spirit', 'fruit', 'research'],
   html: `
     <p>

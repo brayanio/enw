@@ -13,5 +13,8 @@ export default {
   },
   fruit: {
     classList: 'g1 text-w'
+  },
+  milk: {
+    classList: 'r1 text-w'
   }
 }

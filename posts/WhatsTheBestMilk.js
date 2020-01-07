@@ -5,7 +5,20 @@ export default {
   id: 'WhatsTheBestMilk',
   title: 'Whats the best milk?',
   date: '12/06/19',
+  author: 'Brayanbyrdsong@icloud.com',
   tags: ['health', 'milk', 'vegan'],
+  source: [
+    {
+      name: 'alv.org',
+      href: 'https://www.alv.org.au/cow-truth/17-reasons-to-wean-yourself-from-milk-today/'
+    }
+  ],
+  research: [
+    {
+      name: 'How do dairy companies produce milk?',
+      href: 'https://google.com/search?q=how+do+dairy+companies+produce+milk'
+    }
+  ],
   template: {
     component: 'PList',
     props: {
